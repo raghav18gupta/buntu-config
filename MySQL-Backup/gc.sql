@@ -1,0 +1,74 @@
+-- MySQL dump 10.13  Distrib 5.7.22, for Linux (x86_64)
+--
+-- Host: localhost    Database: gc
+-- ------------------------------------------------------
+-- Server version	5.7.22-0ubuntu0.17.10.1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `make_red`
+--
+
+DROP TABLE IF EXISTS `make_red`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `make_red` (
+  `pi_id` int(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `make_red`
+--
+
+LOCK TABLES `make_red` WRITE;
+/*!40000 ALTER TABLE `make_red` DISABLE KEYS */;
+/*!40000 ALTER TABLE `make_red` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pi_info`
+--
+
+DROP TABLE IF EXISTS `pi_info`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pi_info` (
+  `pi_id` int(10) NOT NULL,
+  `pi_name` varchar(30) DEFAULT NULL,
+  `pi_lat` float(50,20) NOT NULL,
+  `pi_long` float(50,20) NOT NULL,
+  PRIMARY KEY (`pi_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pi_info`
+--
+
+LOCK TABLES `pi_info` WRITE;
+/*!40000 ALTER TABLE `pi_info` DISABLE KEYS */;
+INSERT INTO `pi_info` VALUES (23152670,'Palasia Square',22.72384071350097700000,75.88673400878906000000),(28571426,'Geeta Bhavan Square',22.71783828735351600000,75.88428497314453000000),(30004812,'Shivaji Square',22.71139335632324200000,75.88285064697266000000),(32781349,'GPO Square',22.70741081237793000000,75.87882995605469000000),(62973742,'Indira Gandhi Square',22.70430374145507800000,75.87648773193360000000),(71884396,'Navlakha Square',22.69890785217285000000,75.87794494628906000000);
+/*!40000 ALTER TABLE `pi_info` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2018-12-24 22:15:01
