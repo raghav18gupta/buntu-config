@@ -8,7 +8,6 @@ This repo has my configurations and settings of Ubuntu.
 - Anaconda
 - bPython3
 - Chrome
-- DataGrip
 - Dconf-Editor
 - Dia
 - Eclipse
@@ -21,6 +20,7 @@ This repo has my configurations and settings of Ubuntu.
 - Heroku CLI 
 - Java
 - Markdown View
+- MySQL Workbench
 - Popcorn Time 
 - PyCharm
 - R
