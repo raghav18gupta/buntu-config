@@ -72,6 +72,12 @@ This repo has my configurations and settings of Ubuntu.
 		- mysql> `GRANT ALL PRIVILEGES ON * . * TO 'raghav'@'localhost';`
     - `mysql -u raghav -p`
 
+- Git (one-time)
+	- `git config --global user.email "18raghavgupta@gmail.com"`
+	- `git config --global user.name "raghav18gupta"`
+	- `git config credential.helper store`
+	- `git config --global credential.helper 'cache --timeout=9999999999999'`
+
 ## pip Installs
 
 - `python-telegram-bot`
