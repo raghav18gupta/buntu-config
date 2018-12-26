@@ -39,8 +39,6 @@ This repo has my configurations and settings of Ubuntu.
 
 ## Settings
 
-- MySQl Backup : `mysql -u raghav -p database_name < zeal.sql`
-
 - Bash Prompt : `\[\033[0;93m\]\u@\h \[\033[0;37m\][\d \t] \n\[\033[0;94m\]\w \[\033[0;92m\]$ \[\033[0;97m\]`
 
 - Themes
@@ -71,6 +69,10 @@ This repo has my configurations and settings of Ubuntu.
 		- mysql> `CREATE USER 'raghav'@'localhost' IDENTIFIED BY 'root1231';`
 		- mysql> `GRANT ALL PRIVILEGES ON * . * TO 'raghav'@'localhost';`
     - `mysql -u raghav -p`
+
+- MySQl Backup : 
+	- create database `zeal`
+	- `mysql -u raghav -p zeal < zeal.sql`
 
 - Git (one-time)
 	- `git config --global user.email "18raghavgupta@gmail.com"`
