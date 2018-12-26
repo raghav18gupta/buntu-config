@@ -70,7 +70,7 @@ This repo has my configurations and settings of Ubuntu.
 		- mysql> `GRANT ALL PRIVILEGES ON * . * TO 'raghav'@'localhost';`
     - `mysql -u raghav -p`
 
-- MySQl Restore: 
+- MySQL Restore: 
 	- create database `zeal`
 	- `mysql -u raghav -p zeal < zeal.sql`
 
