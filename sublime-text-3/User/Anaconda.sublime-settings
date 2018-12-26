@@ -1,0 +1,16 @@
+{
+	"python_interpreter": "/home/raghav18gupta/anaconda3/bin/python",
+	"auto_formatting": true,
+	"autoformat_ignore":
+	[
+		"E309",
+		"W191",
+	],
+	"pep8_ignore":
+    [
+        "E309",
+        "W191",
+    ],
+    "anaconda_linter_underlines": false,
+    "anaconda_linter_mark_style": "none",
+}
