@@ -50,6 +50,14 @@ This repo has my configurations and settings of Ubuntu.
 	- Simple Net Speed
 	- Dash to panel
 
+- Sublime Extentions
+	- Anaconda
+	- BracketHighlighter
+	- GitGutter
+	- Material Theme
+	- Package Control
+	- Side Bar
+
 - gnome-settings
 	- `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
 	- `gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true`
