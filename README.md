@@ -88,6 +88,11 @@ This repo has my configurations and settings of Ubuntu.
 	- `git config credential.helper store`
 	- `git config --global credential.helper 'cache --timeout=9999999999999'`
 
+- VS Code
+	- Extentions
+		- Python
+		- Visual Studio IntelliCode
+
 ## pip Installs
 
 - `python-telegram-bot`
