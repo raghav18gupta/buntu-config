@@ -17,6 +17,7 @@ This repo has my configurations and settings of Ubuntu.
 - GNOME Boxes
 - GParted
 - Gravit Designer
+- Inkspace
 - Heroku CLI 
 - Java
 - Markdown View
