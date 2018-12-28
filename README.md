@@ -95,6 +95,7 @@ This repo has my configurations and settings of Ubuntu.
 		- Visual Studio IntelliCode
 
 - Jupyter NB
+	- `conda install nbconvert` 
 	- `sudo apt install texlive-xetex`
 
 ## pip Installs
