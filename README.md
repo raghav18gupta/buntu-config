@@ -94,6 +94,9 @@ This repo has my configurations and settings of Ubuntu.
 		- Python
 		- Visual Studio IntelliCode
 
+- Jupyter NB
+	- `sudo apt install texlive-xetex`
+
 ## pip Installs
 
 - `python-telegram-bot`
