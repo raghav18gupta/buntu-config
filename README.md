@@ -18,6 +18,7 @@ This repo has my configurations and settings of Ubuntu.
 - GParted
 - Gravit Designer
 - Inkspace
+- IntelliJ
 - Heroku CLI 
 - Java
 - Markdown View
@@ -32,6 +33,7 @@ This repo has my configurations and settings of Ubuntu.
 - Telegram
 - Tor Browser
 - Tweaks
+- uGet
 - VS Code
 - VNC Viewer
 - VLC
@@ -97,6 +99,8 @@ This repo has my configurations and settings of Ubuntu.
 - Jupyter NB
 	- `conda install nbconvert` 
 	- `sudo apt install texlive-xetex`
+- PyCharm
+	- Material Theme UI
 
 ## pip Installs
 
