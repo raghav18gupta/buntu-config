@@ -1,4 +1,5 @@
 # Ubuntu-config
+```
 
                           ./+o+-       
                   yyyyy- -yyyyyy+      
@@ -18,6 +19,7 @@
                /osyyyyyyo++ooo+++/     
                    ````` +oo+++o\:    
                           `oo++.     
+```
 
 ## Applications
 
