@@ -1,6 +1,5 @@
 # Ubuntu-config
 ```
-
                           ./+o+-       
                   yyyyy- -yyyyyy+      
                ://+//////-yyyyyyo      
