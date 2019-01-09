@@ -116,8 +116,12 @@
 - Jupyter NB
 	- `conda install nbconvert` 
 	- `sudo apt install texlive-xetex`
+
 - PyCharm
 	- Material Theme UI
+
+- ZSH
+	- 
 
 ## pip Installs
 
